@@ -1,0 +1,15 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+
+# 실제 키가 들어 있는 환경 변수 파일은 올리지 않는다 (예시 파일만 올림)
+.env
+.env.*
+!.env.example
+
+# SQLite DB 파일
+server/data/
+
+# 로컬 도구 설정
+.claude/
